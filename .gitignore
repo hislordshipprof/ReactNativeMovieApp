@@ -39,3 +39,9 @@ app-example
 
 # vscode
 .vscode
+
+# package-lock.json
+package-lock.json
+package-lock.json.lock
+expo-env.d.ts
+.env
