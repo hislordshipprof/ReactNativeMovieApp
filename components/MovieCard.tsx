@@ -1,6 +1,5 @@
 import { Link } from "expo-router";
 import { Text, Image, TouchableOpacity, View } from "react-native";
-
 import { icons } from "@/constants/icons";
 
 const MovieCard = ({
@@ -23,7 +22,7 @@ const MovieCard = ({
           resizeMode="cover"
         />
 
-        <Text className="text-sm font-bold text-white mt-2" numberOfLines={1}>
+        <Text className="text-sm font-bold text-white mt-3" numberOfLines={1}>
           {title}
         </Text>
 
